@@ -1,6 +1,6 @@
 To recreate the simulation results, do the following:
-1) Simulate data with the script "paper_simulation.R".
-2) Once the data is simulated, the GF_iSSA model can be applied based on the script "paper_code_mkd.Rmd".
+1) Simulate data with the script "paper_simulation.R". You would need a cluster for that.
+2) Once the data is simulated, the GF_iSSA model can be applied to the simulated tracks based on the script "model_code.R".
 
 To recreate the real data results, do the following:
 1) Download the corresponding spatial covariates as indicated by Glass et. al 2021. The tracks can be downloaded in the Movebank repository indicated in our manuscript.
