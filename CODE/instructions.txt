@@ -1,0 +1,8 @@
+To recreate the simulation results, do the following:
+1) Simulate data with the script "paper_simulation.R".
+2) Once the data is simulated, the GF_iSSA model can be applied based on the script "paper_code_mkd.Rmd".
+
+To recreate the real data results, do the following:
+1) Download the corresponding spatial covariates as indicated by Glass et. al 2021. The tracks can be downloaded in the Movebank repository indicated in our manuscript.
+2) Clean the data with the script "female_wolverine_preparation.R".
+3) Fit the model with the script "real_data_application.R".
